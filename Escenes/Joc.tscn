@@ -22,6 +22,8 @@ color_sortida = Color(0.117647, 0.780392, 1, 1)
 
 [node name="Area2D2" parent="." instance=ExtResource("3_xniif")]
 position = Vector2(273, 451)
+color_entrada = Color(1, 0.576471, 0.807843, 1)
+color_sortida = Color(1, 0, 0.729412, 1)
 
 [node name="Area2D3" parent="." instance=ExtResource("3_xniif")]
 position = Vector2(747, 580)
