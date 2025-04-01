@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtqi7apjcsgrx"]
+
+[ext_resource type="PackedScene" uid="uid://cbn0aukmeyaqt" path="res://Escenes/jugador.tscn" id="1_nxaih"]
+[ext_resource type="PackedScene" uid="uid://dmnybmduq7lmd" path="res://Escenes/paret.tscn" id="2_xniif"]
+[ext_resource type="PackedScene" uid="uid://cdja2xvqt63ai" path="res://Escenes/area_2d.tscn" id="3_xniif"]
+
+[node name="Joc" type="Node2D"]
+
+[node name="Jugador" parent="." instance=ExtResource("1_nxaih")]
+position = Vector2(528, 267)
+
+[node name="Paret" parent="." instance=ExtResource("2_xniif")]
+position = Vector2(271, 160)
+
+[node name="Paret2" parent="." instance=ExtResource("2_xniif")]
+position = Vector2(826, 162)
+
+[node name="Area2D" parent="." instance=ExtResource("3_xniif")]
+position = Vector2(837, 404)
+color_entrada = Color(0.727408, 0.235876, 1, 1)
+color_sortida = Color(0.117647, 0.780392, 1, 1)
+
+[node name="Area2D2" parent="." instance=ExtResource("3_xniif")]
+position = Vector2(273, 451)
+
+[node name="Area2D3" parent="." instance=ExtResource("3_xniif")]
+position = Vector2(747, 580)
+
+[node name="Area2D4" parent="." instance=ExtResource("3_xniif")]
+position = Vector2(537, 524)
+scale = Vector2(2.16, 1)
